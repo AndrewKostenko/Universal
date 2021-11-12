@@ -1,0 +1,134 @@
+//ШРИФТ=====================================================================
+
+$font-family: "Lato", sans-serif;
+$font-size: 16px;
+
+//ПІДКЛЮЧЕНІ ШРИФТИ=====================================================================
+// GOOGLE FONTS (&display=swap)=====================================================================
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+// /GOOGLE FONTS=====================================================================
+@font-face {
+	font-family: "icon";
+	src: url("../fonts/icon.eot?gipscy");
+	src: url("../fonts/icon.eot?gipscy#iefix") format("embedded-opentype"),
+		url("../fonts/icon.ttf?gipscy") format("truetype"), url("../fonts/icon.woff?gipscy") format("woff"),
+		url("../fonts/icon.svg?gipscy#icon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hamburger:before {
+	content: "\e916";
+	color: #bcbfc2;
+}
+.icon-arrow:before {
+	content: "\e900";
+}
+.icon-arrow_slider:before {
+	content: "\e901";
+}
+.icon-bookmark:before {
+	content: "\e902";
+}
+.icon-clock:before {
+	content: "\e903";
+}
+.icon-comment:before {
+	content: "\e904";
+}
+.icon-facebook:before {
+	content: "\e905";
+}
+.icon-home:before {
+	content: "\e906";
+}
+.icon-images:before {
+	content: "\e907";
+}
+.icon-instagram:before {
+	content: "\e908";
+}
+.icon-like:before {
+	content: "\e909";
+}
+.icon-loading:before {
+	content: "\e90a";
+}
+.icon-pencil:before {
+	content: "\e90b";
+}
+.icon-quote:before {
+	content: "\e90c";
+}
+.icon-search:before {
+	content: "\e90d";
+}
+.icon-see:before {
+	content: "\e90e";
+}
+.icon-points:before {
+	content: "\e90f";
+}
+.icon-share:before {
+	content: "\e910";
+}
+.icon-sun:before {
+	content: "\e911";
+}
+.icon-thumb:before {
+	content: "\e912";
+}
+.icon-twitter:before {
+	content: "\e913";
+}
+.icon-user:before {
+	content: "\e914";
+}
+.icon-youtube:before {
+	content: "\e915";
+}
+
+//ПІДКЛЮЧЕНІ ШРИФТИ=====================================================================
+
+//ШРИФТ=====================================================================
+//CONTAINER=====================================================================
+$container-width: 1140px;
+$container-padding: 15px;
+//CONTAINER=====================================================================
+//VARIABLES=====================================================================
+$red: #eb5757;
+$red-text: #ff4f52;
+$orange-text: #ffa34d;
+$bluegreen-text: #3bbdc4;
+$green-text: #3dc47e;
+$violet-text: #ac8ee3;
+$blue-text: #4592ff;
+$lightblue: #6e99ae;
+$black: #262d33;
+$lightblack: #4b5157;
+$basegrey: #939699;
+$grey-text: #d9dadb;
+$darkgrey: #4b5157;
+$lightgrey: #d1e2eb;
+$blue: #4592ff;
+$greyblue: #30363d;
+$purple: #e7d9ff;
+//VARIABLES=====================================================================
